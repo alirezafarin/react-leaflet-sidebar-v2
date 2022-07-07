@@ -10,7 +10,7 @@ You can easily use this hook to add a sidebar to your react-leaflet map.
 
 ## Demo Link
 
-[Demo](https://github.com/alirezafarin/react-leaflet-sidebar-v2-example)
+[Demo](https://shiny-star-0148.on.fleek.co)
 
 ## Usage/Examples
 
@@ -62,4 +62,52 @@ function Sidebar() {
 
   return <Fragment></Fragment>;
 }
+```
+
+## Types
+
+```typescript
+interface V2SidebarConfigsType {
+  /**
+   * - whether to maintain the centered map point when opening the sidebar
+   */
+  autopan: boolean;
+  /**
+   * - whether to add a close button to the panes
+   */
+  closeButton: boolean;
+  /**
+   * - the DOM container or #ID of a predefined sidebar container that should be used
+   */
+  container: string;
+  /**
+   * - left or right
+   */
+  position: "left" | "right";
+}
+
+interface V2SidebarPanelType {
+  /**
+   * - UID, used to access the panel
+   */
+  id: string;
+  /**
+   * - content can be passed as HTML string,
+   */
+  tab: string;
+  /**
+   * - DOM elements can be passed, too
+   */
+  pane: string;
+  /**
+   * - an optional pane header
+   */
+  title: string;
+  /**
+   * - optional vertical alignment, top or bottom
+   */
+  position: "top" | "bottom";
+}
+
+type V2SidebarPanelsType = V2SidebarPanelType[];
 ```
