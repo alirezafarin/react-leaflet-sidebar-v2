@@ -1,6 +1,6 @@
 {
-  "name": "react-leaflet-sidebar",
-  "version": "1.0.0",
+  "name": "react-leaflet-v2-sidebar",
+  "version": "1.0.1",
   "description": "",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -15,7 +15,9 @@
     "leaflet",
     "react-leaflet",
     "leaflet-sidebar-v2",
-    "typescript"
+    "typescript",
+    "react-leaflet-sidebar-v2",
+    "react-leaflet-sidebar"
   ],
   "author": "Alirezafarin",
   "license": "ISC",

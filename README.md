@@ -4,7 +4,11 @@ This is a react hook for the [leaflet-sidebar-v2](https://www.npmjs.com/package/
 It works with react-leaflet library.\
 You can easily use this hook to add a sidebar to your react-leaflet map.
 
-## Demo
+## Demo View
+
+![Logo](./leaflet-sidebar-v2.gif)
+
+## Demo Link
 
 [Demo](https://github.com/alirezafarin/react-leaflet-sidebar-v2-example)
 
